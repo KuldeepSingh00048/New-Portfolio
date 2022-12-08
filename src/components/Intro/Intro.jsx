@@ -10,7 +10,7 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import Resume from './Kuldeep_SIngh_CV_22.pdf';
+import Resume from './Kuldeep_SIngh_CV_2022.pdf';
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };

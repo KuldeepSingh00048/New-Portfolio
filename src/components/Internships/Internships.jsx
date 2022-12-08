@@ -7,9 +7,14 @@ import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import intern from "../../img/intern.png";
 import saip from "../../img/saip.png";
+import Intern from "../../img/di.png";
 
 const Internships = () => {
   const clients = [
+    {
+      img: Intern,
+      review:"Digital Ipsum PVT Ltd., Remote Nov 2022 - DEC 2022 work as Full Stack MERN Developer Intern (doing daily basis tasks on both Front-end and back-end side of websites for clients).",
+    },
     {
       img: intern,
       review:"The Intern Academy, Virtual Sep 2021 - Oct 2021 Work to automate the social media platforms using python ML SO I automate the Instagram",

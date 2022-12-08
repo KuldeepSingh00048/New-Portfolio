@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
+import {FreeMode}from "swiper"
 import "swiper/css";
 import blog from "../../img/blog.PNG";
 import face from "../../img/face.PNG";
@@ -26,13 +27,16 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={50}
         slidesPerView={3}
         grabCursor={true}
+        freeMode={true}
+        modules={[FreeMode]}
+        loop={true}
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href='https://abroadaid-task-planner-assigment.netlify.app' target='_blank'><img src={task}/></a>
+          <a href='https://kd-task-planner.netlify.app' target='_blank'><img src={task}/></a>
         </SwiperSlide>
         <SwiperSlide>
           <a href='https://kd-movie-ticket-booking.netlify.app' target='_blank'><img src={movie} alt="" /></a>
@@ -51,9 +55,12 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={70}
         slidesPerView={3}
         grabCursor={true}
+        freeMode={true}
+        modules={[FreeMode]}
+        loop={true}
         className="portfolio-slider"
       >
         <SwiperSlide>
